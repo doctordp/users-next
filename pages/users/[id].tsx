@@ -6,7 +6,7 @@ import Container from '../../components/Container';
 import { IUser } from '../../interfaces';
 import React from 'react';
 
-const User = (props: { user: IUser }) => {
+const User = (props: { user: IUser }): JSX.Element => {
 	return (
 		<Container>
 			<div className="row">

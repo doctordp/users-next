@@ -1,6 +1,6 @@
 import Container from '../components/Container';
 
-const About = () => (
+const About = (): JSX.Element => (
 	<Container>
 		<h1>About</h1>
 		<p>
